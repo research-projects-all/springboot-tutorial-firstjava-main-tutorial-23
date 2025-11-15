@@ -30,7 +30,9 @@
             <version>1.9.1</version>
         </dependency>
     </dependencies>
-
+    <properties>
+      <sonar.organization>research-projects-all</sonar.organization>
+    </properties>
     <build>
         <pluginManagement>
             <plugins>
