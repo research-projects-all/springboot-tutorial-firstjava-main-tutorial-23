@@ -18,7 +18,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: spring-boot-image-matched-projects
+        working-directory: in28Minutes-first-webapp/in28Minutes-first-webapp
 
     steps:
       - name: Checkout code
