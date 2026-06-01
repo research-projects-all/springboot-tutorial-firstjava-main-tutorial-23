@@ -40,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
 
-      - name: Build and analyze
+      - name: Final build
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
